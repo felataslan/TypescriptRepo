@@ -1,6 +1,7 @@
 import "./App.css";
 import { Card, CardContent, CardHeader, CardMedia, Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
+import State from "./components/State";
 import "bootstrap";
 
 const data = [
@@ -55,6 +56,7 @@ const App = () => {
           </Card>
         </Grid>
       ))}
+      <State />
     </Grid>
   );
 };
